@@ -10,8 +10,9 @@ form{
   padding-top: 10px;
   width: 400px;
   height: 600px;
+
 }
-fieldset{
+form div{
   border: none;
   display: flex;
   padding: 0;
@@ -20,8 +21,25 @@ fieldset{
   margin-bottom: 10px;
 }
 
-fieldset p{
+fieldset input{
+  transition: all .15s;
+}
+
+form div input:focus{
+ border: 2px solid lightblue;
+ border-top: transparent ;
+ border-left: transparent;
+ border-right: transparent;
+ outline: none;
+}
+
+form div .error{
   color: red;
+  font-size: .8rem;
+}
+
+.checkboxGroup div:nth-child(4){
+  margin-bottom: 0;
 }
 
 .check-group{
@@ -40,6 +58,7 @@ fieldset p{
 .check-group p{
   margin-top: 0;
 }
+
 
 label{
   margin-bottom: 10px;
