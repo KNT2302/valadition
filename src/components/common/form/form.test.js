@@ -2,7 +2,7 @@ import { render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { wait } from '@testing-library/user-event/dist/utils'
 import { act } from 'react-dom/test-utils'
-import App from '../../App'
+import App from '../../../App'
 
 describe("Form should work exactly", () => {
   test("submit button is", async () => {

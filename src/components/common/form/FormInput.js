@@ -1,8 +1,8 @@
+import React from "react"
 import { ErrorMessage, Field } from "formik"
 
-import React from "react"
 
-const InputField = ({ name, type, label, handleChangeInput }) => {
+const FormInput = ({ name, type, label, handleChangeInput }) => {
   const handleChangeByType = (e, change) => {
     type === "email" ? change(e) : handleChangeInput(e, change)
   }
@@ -25,4 +25,4 @@ const InputField = ({ name, type, label, handleChangeInput }) => {
   )
 }
 
-export default InputField
+export default FormInput
