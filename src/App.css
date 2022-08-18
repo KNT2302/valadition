@@ -1,16 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
 .App {
   display: flex;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-  background: linear-gradient(90deg,transparent, rgb(247, 247, 247));
+  background-color: #f9f9f9;
 }
 
 form{
   padding-top: 10px;
   width: 400px;
   height: 600px;
-
+  font-size: 1.5rem;
 }
 form div{
   border: none;
@@ -35,7 +45,7 @@ form div input:focus{
 
 form div .error{
   color: red;
-  font-size: .8rem;
+  font-size: 1.2rem;
 }
 
 .checkboxGroup div:nth-child(4){
