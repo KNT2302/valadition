@@ -13,7 +13,7 @@ const Weather = () => {
   const params = useParams()
   return (
     <>
-      {params === 'cloudy' ? <Cloudy /> : <Rainny />}
+      {params.weather === 'cloudy' ? <Cloudy /> : <Rainny />}
     </>
   )
 }
