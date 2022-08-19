@@ -16,6 +16,9 @@ const AppHeader = () => {
           <li>
             <Link to="/animation">Animation</Link>
           </li>
+          <li>
+            <Link to="/loading">Loading</Link>
+          </li>
         </ul>
       </nav>
     </header>

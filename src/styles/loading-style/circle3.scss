@@ -1,0 +1,204 @@
+.circle3 {
+    background-color: lightgreen;
+    animation: circle3 10s ease-in-out infinite;
+  }
+
+  @keyframes circle3 {
+    0% {
+      transform: scale(1);
+      background-color: red;
+      top: 0;
+      left: 0;
+      border: none;
+    }
+    5% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      left: 0;
+      height: 20px;
+    }
+    10% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      top: 0;
+      left: 0;
+      height: 20px;
+    }
+    13.5%{
+      transform: scale(1.5);
+      background-color: red;
+      border: none;
+      top: 0;
+      left: 0;
+      height: 20px;
+    }
+    // 15% {
+    //   transform: scale(1.5);
+    //   background-color: red;
+    //   border: none;
+    //   top: 0;
+    //   left: 0;
+    //   height: 20px;
+    // }
+    17% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      top: 0;
+      left: 0;
+      height: 20px;
+    }
+    // 20% {
+    //   transform: scale(1);
+    //   background-color: red;
+    //   border: none;
+    //   top: 0;
+    //   left: 0;
+    //   height: 20px;
+    // }
+    25% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      top: 0;
+      left: 0;
+      height: 20px;
+    }
+    30% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      top: 0;
+      left: 0;
+      height: 20px;
+    }
+    33.5% {
+      transform: scale(1.5);
+      background-color: transparent;
+      border: 2px red solid;
+      left: 0;
+      top: 0;
+      height: 20px;
+    }
+    // 35% {
+    //   transform: scale(1.5);
+    //   background-color: transparent;
+    //   border: 2px red solid;
+    //   left: 0;
+    //   top: 0;
+    //   height: 20px;
+    // }
+    37% {
+      transform: scale(1);
+      background-color: transparent;
+      border: 2px red solid;
+      left: 0;
+      top: 0;
+      height: 20px;
+    }
+    // 40% {
+    //   transform: scale(1);
+    //   background-color: transparent;
+    //   border: 2px red solid;
+    //   left: 0;
+    //   top: 0;
+    //   height: 20px;
+    // }
+    45% {
+      transform: scale(1);
+      background-color: transparent;
+      border: 2px red solid;
+      left: 0;
+      top: 0;
+      height: 20px;
+    }
+    50% {
+      transform: scale(1);
+      background-color: transparent;
+      border: 2px red solid;
+      left: 0;
+      top: 0px;
+      height: 60px;
+    }
+    55% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      left: 0;
+      top: 40px;
+      height: 20px;
+    }
+    60% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      left: 40px;
+      top: 40px;
+      height: 20px;
+    }
+    65% {
+        transform: scale(1);
+        background-color: red;
+        border: none;
+        left: 40px;
+        top: 40px;
+        height: 20px;
+    }
+    70% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      left: 40px;
+      top: 0;
+      height: 20px;
+    }
+    75% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      left: 40px;
+      top: 0;
+      height: 20px;
+    }
+    80% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      left: 40px;
+      top: 0;
+      height: 20px;
+    }
+    85% {
+      transform: scale(1);
+      background-color: red;
+      border: none;
+      left: 40px;
+      top: 0;
+      height: 20px;
+    }
+    90% {
+        transform: scale(1);
+        background-color: red;
+        border: none;
+        left: 0px;
+        top: 0;
+        height: 20px;
+    }
+    95% {
+        transform: scale(1);
+        background-color: red;
+        border: none;
+        left: 0px;
+        top: 0;
+        height: 20px;
+    }
+    100% {
+        transform: scale(1);
+        background-color: red;
+        top: 0;
+        left: 0;
+        border: none;
+    }
+  }

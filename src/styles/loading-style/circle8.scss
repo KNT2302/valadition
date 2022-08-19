@@ -1,0 +1,67 @@
+  @keyframes circle8 {
+    0% {
+      transform: scale(0);
+    }
+    5% {
+      transform: scale(0);
+    }
+    10% {
+      transform: scale(0);
+    }
+    15% {
+      transform: scale(0);
+    }
+    20% {
+      transform: scale(0);
+    }
+    25% {
+      transform: scale(0);
+    }
+    30% {
+      transform: scale(0);
+    }
+    35% {
+      transform: scale(0);
+    }
+    40% {
+      transform: scale(0);
+    }
+    45% {
+      transform: scale(.5);
+    }
+    50% {
+      transform: scale(1);
+    }
+    55% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1);
+    }
+    65% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.5);
+    }
+    75% {
+      transform: scale(.5);
+    }
+    80% {
+      transform: scale(.5);
+    }
+    85% {
+      transform: scale(1);
+    }
+    90% {
+      transform: scale(1);
+    }
+    95% {
+      transform: scale(1);
+      border: none;
+    }
+    100% {
+        border: none;
+      transform: scale(1);
+    }
+  }
