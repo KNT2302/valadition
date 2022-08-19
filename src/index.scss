@@ -11,6 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.downside {
+  margin-top: 10vh
+}
 @import "./App.scss";
 @import "./styles/components.scss";
+// @import "./styles/animation.scss";

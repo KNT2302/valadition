@@ -1,7 +1,6 @@
 import { Switch, Route } from "react-router-dom"
-import FormValidationPage from "./components/pages/FormValidationPage"
+import { FormValidationPage, Home } from "./components/pages"
 import AppHeader from "./components/common/AppHeader"
-import Home from "./components/pages/Home"
 
 function App() {
   return (
