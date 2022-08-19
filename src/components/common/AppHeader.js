@@ -13,6 +13,9 @@ const AppHeader = () => {
           <li>
             <Link to="/form">Form</Link>
           </li>
+          <li>
+            <Link to="/animation">Animation</Link>
+          </li>
         </ul>
       </nav>
     </header>
