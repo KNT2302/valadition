@@ -1,28 +1,28 @@
-header{
+header {
   display: flex;
   padding: 1em 2em;
   width: 100%;
   background-color: white;
-  .logo{
+  .logo {
     font-size: 2rem;
   }
-  nav{
+  nav {
     flex: 1;
-    ul{
+    ul {
       display: flex;
       justify-content: center;
       list-style: none;
       height: 100%;
-      li{
+      li {
         display: flex;
         align-items: center;
         margin-right: 2em;
-        a{
+        a {
           font-size: 1.5rem;
           text-decoration: none;
           color: black;
         }
-      }   
+      }
     }
   }
 }

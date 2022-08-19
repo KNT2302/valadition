@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
@@ -16,13 +16,13 @@ html{
   background-color: #f9f9f9;
 }
 
-form{
+form {
   padding-top: 10px;
   width: 400px;
   height: 600px;
   font-size: 1.5rem;
 }
-form div{
+form div {
   border: none;
   display: flex;
   padding: 0;
@@ -31,46 +31,46 @@ form div{
   margin-bottom: 10px;
 }
 
-fieldset input{
+fieldset input {
   transition: all .15s;
 }
 
-form div input:focus{
- border: 2px solid lightblue;
- border-top: transparent ;
- border-left: transparent;
- border-right: transparent;
- outline: none;
+form div input:focus {
+  border: 2px solid lightblue;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  outline: none;
 }
 
-form div .error{
+form div .error {
   color: red;
   font-size: 1.2rem;
 }
 
-.checkboxGroup div:nth-child(4){
+.checkboxGroup div:nth-child(4) {
   margin-bottom: 0;
 }
 
-.check-group{
+.check-group {
   margin-bottom: 0;
 }
 
-.check-group legend{
+.check-group legend {
   margin-bottom: 10px;
   padding: 0;
 }
 
-.check-group div{
+.check-group div {
   margin-bottom: 10px;
 }
 
-.check-group p{
+.check-group p {
   margin-top: 0;
 }
 
 
-label{
+label {
   margin-bottom: 10px;
 }
 .App-logo {

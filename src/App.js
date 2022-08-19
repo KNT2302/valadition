@@ -1,20 +1,19 @@
-import "./App.css"
-import FormInput from "./component/form"
-import Header from "./component/header/Header"
-import Home from "./component/homepage/Home"
 import { Switch, Route } from "react-router-dom"
+import FormValidationPage from "./components/pages/FormValidationPage"
+import AppHeader from "./components/common/AppHeader"
+import Home from "./components/pages/Home"
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <AppHeader />
       <hr />
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
         <Route path="/form">
-          <FormInput />
+          <FormValidationPage />
         </Route>
       </Switch>
     </div>
