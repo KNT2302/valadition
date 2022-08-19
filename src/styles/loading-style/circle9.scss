@@ -1,0 +1,145 @@
+.circle9 {
+    animation: circle9 10s ease-in-out infinite;
+
+  }
+  
+@keyframes circle9 {
+    0% {
+      background-color: yellow;
+      border: none;
+      transform: scale(1);
+      top: 0
+    }
+    5% {
+      background-color: yellow;
+      transform: scale(1);
+      top: 0;
+      border: none;
+    }
+    10% {
+      background-color: yellow;
+      transform: scale(1);
+      top: 0;
+      border: none;
+    }
+    15% {
+      background-color: yellow;
+      transform: scale(1);
+      top: 0;
+      border: none;
+    }
+    18.5% {
+      background-color: yellow;
+      transform: scale(1.5);
+      top: 0;
+      border: none;
+    }
+    // 20% {
+    //   background-color: yellow;
+    //   transform: scale(1.5);
+    //   top: 0;
+    //   border: none;
+    // }
+    22% {
+      background-color: yellow;
+      transform: scale(1);
+      top: 0;
+      border: none;
+    }
+    // 25% {
+    //   background-color: yellow;
+    //   transform: scale(1);
+    //   top: 0;
+    //   border: none;
+    // }
+    30% {
+      background-color: yellow;
+      transform: scale(1);
+      top: 0;
+      border: none;
+    }
+    35% {
+      background-color: yellow;
+      transform: scale(1);
+      top: 0;
+      border: none;
+    }
+    40% {
+      background-color: yellow;
+      transform: scale(1);
+      top: 0;
+      border: none;
+    }
+    45% {
+      background-color: yellow;
+      transform: scale(1);
+      top: 0;
+      border: none;
+    }
+    50% {
+      background-color: yellow;
+      transform: scale(1);
+      top: 0px;
+      border: none;
+    }
+    55% {
+      background-color: yellow;
+      transform: scale(1);
+      top: 40px;
+      border: none;
+    }
+    60% {
+      background-color: yellow;
+      transform: scale(1.5);
+      top: 40px;
+      border: none;
+    }
+    65% {
+      background-color: transparent;
+      border: 2px solid yellow;
+      top: 40px;
+      transform: scale(1);
+    }
+    70% {
+      background-color: yellow;
+      border: none;
+      transform: scale(0);
+      top: 40px;
+    }
+    75% {
+      background-color: yellow;
+      border: none;
+      transform: scale(1);
+      top: 40px;
+    }
+    80% {
+      background-color: yellow;
+      border: none;
+      transform: scale(1);
+      top: 40px
+    }
+    85% {
+      background-color: yellow;
+      border: none;
+      transform: scale(1);
+      top: 0
+    }
+    90% {
+      background-color: yellow;
+      border: none;
+      transform: scale(1);
+      top: 0
+    }
+    95% {
+      background-color: yellow;
+      border: none;
+      transform: scale(1.1);
+      top: 0
+    }
+    100% {
+      background-color: yellow;
+      border: none;
+      transform: scale(1.1);
+      top: 0
+    }
+  }

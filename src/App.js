@@ -1,5 +1,5 @@
 import { Switch, Route } from "react-router-dom"
-import { AnimationPage, FormValidationPage, Home } from "./components/pages"
+import { AnimationPage, FormValidationPage, Home, Loading } from "./components/pages"
 import AppHeader from "./components/common/AppHeader"
 
 function App() {
@@ -16,6 +16,9 @@ function App() {
         </Route>
         <Route path="/animation">
           <AnimationPage />
+        </Route>
+        <Route path="/loading">
+          <Loading />
         </Route>
       </Switch>
     </div>
