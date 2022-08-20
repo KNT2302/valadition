@@ -14,7 +14,7 @@
 .loading {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 100px);    
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -23,6 +23,7 @@
       position: relative;
       text-align: center;
       .circle {
+        margin-left: -20px;
         position: absolute;
         width: 20px;
         height: 20px;
